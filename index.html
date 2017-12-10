@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project: Recipe book</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Josefin+Sans:400,400i,600,600i,700,700i" rel="stylesheet">
+        <style>
+        
+        * {box-sizing: border-box;}
+            
+        body {text-align: center; line-height:1.3; background-color: #f4f4f4; color: #484848; font-family: 'Indie Flower', cursive; border: 8px dotted #ddd; max-width: 100vw; margin: 0; line-height: 20px;}
+        
+        ol {border: groove; border: 4px dashed #ddd; padding: 10vw; font-size: 150%; letter-spacing: 10px; line-height: 40px; background-color: #7a7a7a;}
+         
+        ul {padding: 2vw;}
+            
+        li {padding: 10%; list-style-type: none;}
+         
+        p {text-align: left; transition: all 0.4s ease-in-out; font-size: 125%;}
+        
+        table {box-shadow: 1px 2px #bababa; height: auto; font-size: 125%; margin-bottom: 2vw;}
+            th {background-color: #e3f2f1;}
+        table, td, th {border-collapse: collapse;  border: 1px solid #ddd; padding: 2vw;}
+        
+        a {color: #e0eeef;}
+        
+        h1 {padding: 10vw; letter-spacing: 20px; line-height: 15vh; height: 95vh;}
+        h2 {font-size: 4vw; line-height: 15vh;}    
+        h4 {border-bottom: 1px solid #efe0e0; border-top: 0px solid #efe0e0; transition: border 2s; padding: 2vw; background-color: #7a7a7a;}
+            
+        tr {transition: all 0.4s linear;}
+        
+        div.wrapper {max-width: 500px; margin: 0 auto; padding: 2vw;}
+            
+        div.table-wrapper {overflow: hidden;}
+            
+        .comment {text-align: right; color: #bebebe; transition: all 1.2s ease-in-out; margin: 2vw; padding: 2vw;} 
+        .step {font-size: 80%; transition: all 0.8s ease-in-out;}
+            
+        #minutes, #hours, #daily {width: 200px; height: 100px;  background-color: #f1f0e2; color: #888}
+        #minutes {transition: all 1.2s ease-out;}
+        #hours {transition: all 2.4s ease-out;}
+        #daily {transition: all 4.8s ease-out;}
+        #all-3 {color: #aabaab; transition: all 0.4s ease-in-out}
+            
+        #minutes:hover, #hours:hover, #daily:hover {width: 50vw; background-color: #e3f0e1; font-size: 125%; color: #444444} 
+        h4:hover {border-bottom: 10px solid #aabaab; border-top: 10px solid #aabaab;}
+        tr.rows:hover {background-color: #ddd;}
+        p:hover {font-size: 175%;}
+        p:hover .step {color: #ff686b}    
+        .comment:hover {color: #f4f4f4;  background-color: #444444;}
+        #all-3:hover {font-size: 160%; color: #ff8cdc;}
+        
+        @media only screen and (max-width: 500px) {div.wrapper {max-width: 100vw;}
+       
+        </style>
+    </head>
+    <body>
+     <div class="wrapper">  
+        <h1 id="tittle-bear">Bear's <em id="all-3">All 3</em> Recipe Book</h1>
+        
+        <ol>
+            <li><a href="#human-with-honey">Human with honey</a></li>
+            <li><a href="#vegetarian-fish-tea">Vegetarian fish tea</a></li>
+            <li><a href="#bonjour-cake"><em>Bonjour</em> Cake</a></li>
+        </ol>
+        
+        <h2 id="human-with-honey">Human with honey sauce</h2>
+        
+        <ul>
+            <li id="hours">Time: Several hours</li>
+            <li>Serves: Me</li>
+        </ul>
+        
+        <div class="table-wrapper"><table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                    <th>Talk about</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="rows">
+                    <td>Tender human</td>
+                    <td>One will be more than enough</td>
+                    <td>How's the weather...</td>
+                </tr>
+                <tr class="rows">
+                    <td>Sweet honey</td>
+                    <td>Quite a few spoons</td>
+                    <td>Anything that is  <strong>not family</strong></td>
+                </tr>
+                <tr class="rows">
+                    <td>Secret spices</td>
+                    <td>It's a secret</td>
+                    <td><em>Whisper nonsenses</em></td>
+                </tr>
+            </tbody>
+        </table></div>
+        
+        <p> Step 1:<span class="step"> Dress up, your best day clothes. Go search a human.</span></p>
+        <p> Step 2:<span class="step"> After finding your human, walk with your human in a park. Twice.</span></p>
+        <p> Step 3:<span class="step"> At the park, be bit by mosquitoes.</span></p>
+        <p> Step 4:<span class="step"> Still at the park, talk in french and in english about how's the weather and other stuff.</span></p>
+        <p> Step 5:<span class="step"> Go to the sweetest places in your mind and hug your human goodnight.</span></p>
+        <p> Step 6:<span class="step"> Sing. Sing a lot. Sing alone. Wish to sing with your human.</span></p>
+        <p> Step 7:<span class="step"> Fill everything with sweet honey. With sweet words.</span></p>
+        <p> Step 8:<span class="step"> Kiss your human lips.</span></p>
+        <p> Step 9:<span class="step"> Enjoy anytime!</span></p>
+        <div class="comment">Don't even write about family in the recipe when copying this to your <strong>little</strong> notebook, BUT it's ok to write about "no" talking "about family" when teaching the recipe, like in a recipe website book.</div>
+        
+       <h2 id="vegetarian-fish-tea">Vegetarian fish tea</h2>
+               
+        <ul>
+            <li id="minutes">Time: A few minutes</li>
+            <li>Serves: Friend(s)</li>
+        </ul>
+        
+        <div class="table-wrapper"><table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                    <th>Tell a story about</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="rows">
+                    <td>Fairy dust</td>
+                    <td>A few hours</td>
+                    <td>Murder, insanity, love</td>
+                </tr>
+                <tr class="rows">
+                    <td>Milkshake</td>
+                    <td>More than a lot for sure</td>
+                    <td>Your friend(s)</td>
+                </tr>
+                <tr class="rows">
+                    <td>Wish</td>
+                    <td>One</td>
+                    <td>Magic</td>
+                </tr>
+            </tbody>
+        </table></div>
+        
+        <p> Step 1<span class="step"> Pick up a bunch of wishes.</span></p>
+        <p> Step 2<span class="step"> With the already made fairy dust, mix it up.</span></p>
+        <p> Step 3<span class="step"> When your friend(s) arrive tell one story, the other doesn't matter.</span></p>
+        <p> Step 4<span class="step"> Blend again milkshakes, but now add up <strong>one</strong> wish.</span></p>
+        <p> Step 5<span class="step"> Tell stories about magic more than once.</span></p>
+    <p> Step 6<span class="step"> Have fun!</span></p>
+    
+    <h2 id="bonjour-cake"><em>Bonjour</em> Cake</h2>
+               
+        <ul>
+            <li id="daily">Time: A daily amount of time</li>
+            <li>Serves: Anyone</li>
+        </ul>
+        
+        <div class="table-wrapper"><table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                    <th>Think about</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="rows">
+                    <td>Exercice</td>
+                    <td>More than 15 minutes</td>
+                    <td>What you can do to take care of yourself</td>
+                </tr>
+                <tr class="rows">
+                    <td>Ambition</td>
+                    <td>More than you think, less than you fear</td>
+                    <td>Your goals</td>
+                </tr>
+                <tr class="rows">
+                    <td>Good sleep</td>
+                    <td>Less than you want</td>
+                    <td>Dream</td>
+                </tr>
+            </tbody>
+        </table></div>
+         <div class="comment">It may take several tries to make this one work, even <strong>I</strong> didn't perfect it yet.</div>
+        
+        <p> Step 1<span class="step"> Prepare the exercice, work hard on it, make it work with your routine, more than 15 minutes everyday so you can get used to it.</span></p>
+        <p> Step 2<span class="step"> Pick a goal. </span></p>
+        <p> Step 3<span class="step"> Doesn't matter how long you will try it. Pick at least one goal and keep trying. If you give up, doesn't matter, pick another or even pick the same one again.</span></p>
+        <p> Step 4<span class="step"> Let a goal stick</span></p>
+        <p> Step 5<span class="step"> Achieve something from time to time.</span></p>
+        <p> Step 6<span class="step"> Sleep in the end, in the beginning, sleep in the middle. But sleep right. No more than you really need.</span></p>
+        <p> Step 7<span class="step"> Repeat every daily amount of hours.</span></p>
+    <h4><a href="#tittle-bear">The Bear's Recipe Book</a></h4>
+    </div></body>
+</html>
